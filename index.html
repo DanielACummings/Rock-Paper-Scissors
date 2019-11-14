@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Ro Sham Bo!</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1>Play Ro Sham Bo!</h1>
+      </div>
+      <!-- Card containing game buttons & info -->
+      <div class="col-6">
+        <div class="card" style="width: 18rem;">
+          <img src="https://www.rd.com/wp-content/uploads/2016/04/rock-paper-scissor-ft.jpg"
+            class="card-img-top img-fluid" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Choose Your Weapon</h5>
+            <p class="card-text">Pick wisely <br /> This isn't 1 out of 3...</p>
+            <a href="#" class="btn btn-primary" onclick="play('rock')">Rock</a>
+            <a href="#" class="btn btn-primary" onclick="play('paper')">Paper</a>
+            <a href="#" class="btn btn-primary" onclick="play('scissors')">Scissors</a>
+          </div>
+        </div>
+      </div>
+      <!-- card containing game results -->
+      <div class="col6">
+        <div class="card" style="width: 18rem;">
+          <img src="https://artlessann.files.wordpress.com/2015/08/drumroll-please.gif" class="card-img-top img-fluid"
+            alt="...">
+          <div class="card-body">
+            <div class="card-title" id="resultHeader"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
